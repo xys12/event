@@ -1,0 +1,184 @@
+@import "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";:root {
+    --font-primary: "Barlow", sans-serif;
+    --font-secondary: "Raleway", sans-serif;
+    --color-primary: #2d373c;
+    --color-secondary: purple;
+    --color-tertiary: #515154
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: barlow,sans-serif
+}
+
+.red {
+    color: violet;
+}
+
+.black {
+    color: #2d373c;
+}
+
+.white {
+    color: white;
+}
+
+.bg-red {
+    background-color: var(--color-secondary);
+}
+
+.centre {
+    text-align: center;
+}
+
+.header-section{
+    text-align: center;
+}
+
+.header-section span {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.header-section h2 {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-text-stroke: 1px violet;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .event-card {
+    border: 1px solid var(--color-secondary);
+} */
+
+.event-card .schedule {
+    padding: 15px 15px 17px;
+    width: 100%;
+}
+
+.event-card .schedule .time{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.event-card .schedule .place {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.event-card .contact {
+    padding: 20px;
+}
+
+.event-card .contact .name {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.event-card .contact .title {
+    font-weight: 700;
+    font-family: raleway,sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.details {
+    padding: 20px 40px;
+    border: 1px solid var(--color-secondary);
+}
+
+.details .title2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #2d373c
+}
+
+.details .content {
+    font-size: 16px;
+    line-height: 30px;
+    color: #515154;
+    font-family: raleway,sans-serif;
+    margin-top: 10px
+}
+
+.details .topics span {
+    font-weight: 700;
+    font-size: 18px;
+    -webkit-text-decoration-line: underline!important;
+    text-decoration-line: underline!important;
+    text-transform: capitalize;
+    color: purple;
+    display: block;
+    padding-top: 10px;
+}
+
+.details .topics ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    padding-left: 0;
+}
+
+.details .topics ul li {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #515154;
+    font-family: raleway,sans-serif;
+    width: 33%;
+    line-height: 30px;
+}
+
+.card {
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+}
+
+.intro {
+    max-width: 440px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.media {
+    display: flex;
+    padding-top: 25px;
+    max-width: 100px;
+    justify-content: space-between;
+}
